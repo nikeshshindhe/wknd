@@ -180,6 +180,7 @@ export function decorateMain(main) {
  * loads everything needed to get to LCP.
  */
 async function loadEager(doc) {
+  console.log(doc);
   document.documentElement.lang = 'en';
   decorateTemplateAndTheme();
 
